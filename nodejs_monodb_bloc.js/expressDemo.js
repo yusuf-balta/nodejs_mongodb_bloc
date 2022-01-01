@@ -7,7 +7,7 @@ var urlEncodedParser = bodyParser.urlencoded({ extended: false })
 
 var mongoose = require('mongoose')
 var Product = require('./product')
-var url = 'mongodb+srv://bylider:byliderIQ7.@cluster0.jtjlj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+var url = 'mongodb+srv://...:....@cluster0.jtjlj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }).then((result) => {
